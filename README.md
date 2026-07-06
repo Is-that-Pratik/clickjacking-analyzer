@@ -12,7 +12,7 @@ A standalone, lightweight Python command-line tool to analyze websites for click
 
 1. Clone the repository and navigate into it:
    ```bash
-   git clone [https://github.com/Is-that-Pratik/clickjacking-analyzer.git](https://github.com/Is-that-Pratik/clickjacking-analyzer.git)
+   git clone https://github.com/Is-that-Pratik/clickjacking-analyzer.git
    cd clickjacking-analyzer
 Install the required dependencies:
 pip install -r requirements.txt
