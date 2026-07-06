@@ -1,5 +1,6 @@
 # Clickjack Analyzer 🛡️
 
+
 A standalone, lightweight Python command-line tool to analyze websites for clickjacking vulnerabilities by inspecting HTTP security headers (`X-Frame-Options` and `Content-Security-Policy`).
 
 ## Features
@@ -14,17 +15,20 @@ A standalone, lightweight Python command-line tool to analyze websites for click
    ```bash
    git clone https://github.com/Is-that-Pratik/clickjacking-analyzer.git
    cd clickjacking-analyzer
-Install the required dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
+   
 
 Usage
-Check a single URL:
+#Check a single URL:
+
 python3 clickjack_check.py [https://example.com](https://example.com)
 
 
-Check a single URL and generate a visual PoC:
+#Check a single URL and generate a visual PoC:
+
 python3 clickjack_check.py [https://example.com](https://example.com) --poc
 
 
-Bulk scan multiple URLs from a file:
+#Bulk scan multiple URLs from a file:
+
 python3 clickjack_check.py -f urls.txt
