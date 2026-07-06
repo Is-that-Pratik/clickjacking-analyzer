@@ -18,7 +18,7 @@ A standalone, lightweight Python command-line tool to analyze websites for click
    pip install -r requirements.txt
    
 
-Usage
+## Usage
 
 ### Check a single URL:
 
