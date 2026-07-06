@@ -19,16 +19,17 @@ A standalone, lightweight Python command-line tool to analyze websites for click
    
 
 Usage
-#Check a single URL:
+
+### Check a single URL:
 
 python3 clickjack_check.py [https://example.com](https://example.com)
 
 
-#Check a single URL and generate a visual PoC:
+### Check a single URL and generate a visual PoC:
 
 python3 clickjack_check.py [https://example.com](https://example.com) --poc
 
 
-#Bulk scan multiple URLs from a file:
+### Bulk scan multiple URLs from a file:
 
 python3 clickjack_check.py -f urls.txt
