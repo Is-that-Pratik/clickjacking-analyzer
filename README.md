@@ -1,4 +1,4 @@
-# Clickjack Analyzer 🛡️
+# clickjacking-analyzer 🛡️
 
 
 A standalone, lightweight Python command-line tool to analyze websites for clickjacking vulnerabilities by inspecting HTTP security headers (`X-Frame-Options` and `Content-Security-Policy`).
